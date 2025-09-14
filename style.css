@@ -86,6 +86,12 @@ section {
     min-height: 80px;
     border: 1px solid black;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    color: yellow;
 }
 
 #hslhsla {
@@ -124,8 +130,14 @@ section {
 }
 
 /* 6. Definição por nome de cor */
+#cor7 {
+    background-color: red;
+}
+
+/* > Usando opacity */
 #cor6 {
     background-color: red;
+    opacity: 0.5;
 }
 
 #texto-colorido {
