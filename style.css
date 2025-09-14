@@ -81,7 +81,9 @@ section {
 
 .box-cor {
     width: 100px;
+    min-width: 80;
     height: auto;
+    min-height: 80px;
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -108,7 +110,7 @@ section {
 
 /* 3. Definição HSLA (Hue, Saturation, Lightness, Alpha) com transparência total */
 #cor3 {
-    background-color: hsla(0, 100%, 50%, 50%);
+    background-color: hsla(0, 100%, 50%, 0.5);
 }
 
 /* 4. Definição RGB (Red, Green, Blue) */
