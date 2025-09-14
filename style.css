@@ -1,0 +1,131 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    background-color: rgb(126, 126, 126);
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: rgb(57, 57, 57);
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: rgb(57, 57, 57);
+}
+
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    margin: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(111, 111, 111);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos da div ".meio" */
+.meio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.codigo {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.box-cor {
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#hslhsla {
+    height: 182px;
+}
+
+#hslhsla div {
+    height: 50%;
+}
+
+/* Definições de cor, usando o mesmo tom de vermelho em diferentes formatos */
+
+/* 1. Definição Hexadecimal */
+#cor1 {
+    background-color: #ff0000;
+}
+
+/* 2. Definição HSL (Hue, Saturation, Lightness) */
+#cor2 {
+    background-color: hsl(0, 100%, 50%);
+}
+
+/* 3. Definição HSLA (Hue, Saturation, Lightness, Alpha) com transparência total */
+#cor3 {
+    background-color: hsla(0, 100%, 50%, 50%);
+}
+
+/* 4. Definição RGB (Red, Green, Blue) */
+#cor4 {
+    background-color: rgb(255, 0, 0);
+}
+
+/* 5. Definição RGBA (Red, Green, Blue, Alpha) com transparência total */
+#cor5 {
+    background-color: rgba(255, 0, 0, 50%);
+}
+
+/* 6. Definição por nome de cor */
+#cor6 {
+    background-color: red;
+}
+
+#texto-colorido {
+    color: #ff0000;
+}

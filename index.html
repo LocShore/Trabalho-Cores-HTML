@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgens/R.png" type="circulo-cromatico">
+    <link rel="stylesheet" href="style.css">
+    <title>Cores</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cores</h1>
+        <ul>
+            <li><a href="#tema1">Hexadecimal</a></li>
+            <li><a href="#tema2">HSL e HSLA</a></li>
+            <li><a href="#tema3">RGB</a></li>
+            <li><a href="#tema4">RGBA</a></li>
+            <li><a href="#tema5">Definição por Nome</a></li>
+            <li><a href="#tema6">Cores em Textos</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section>
+            <article id="tema1">
+                <h1>Hexadecimal</h1>
+                <div class="meio">
+                    <div class="codigo">
+                        <code>
+                            &lt;style&gt;
+                                <br>&nbsp;&nbsp;&nbsp;div {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: #ff0000;
+                                <br>&nbsp;&nbsp;&nbsp;}
+                            <br>&lt;/style&gt;
+                        </code>
+                    </div>
+                    <div id="cor1" class="box-cor"></div>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="tema2">
+                <h1>HSL e HSLA</h1>
+                <div class="meio">
+                    <div class="codigo">
+                        <code>
+                            &lt;style&gt;
+                                <br>&nbsp;&nbsp;&nbsp;div {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: hsl(180, 100%, 50%);
+                                <br>&nbsp;&nbsp;&nbsp;}
+                                <br><br>&nbsp;&nbsp;&nbsp;div2 {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: hsla(180, 100%, 50%, 50%);
+                                <br>&nbsp;&nbsp;&nbsp;}
+                            <br>&lt;/style&gt;
+                        </code>
+                    </div>
+                    <div id="hslhsla">
+                        <div id="cor2" class="box-cor"></div>
+                        <div id="cor3" class="box-cor"></div>
+                    </div>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="tema3">
+                <h1>RGB</h1>
+                <div class="meio">
+                    <div class="codigo">
+                        <code>
+                            &lt;style&gt;
+                                <br>&nbsp;&nbsp;&nbsp;div {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: rgb(255, 0, 0);
+                                <br>&nbsp;&nbsp;&nbsp;}
+                            <br>&lt;/style&gt;
+                        </code>
+                    </div>
+                    <div id="cor4" class="box-cor"></div>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="tema4">
+                <h1>RGBA</h1>
+                <div class="meio">
+                    <div class="codigo">
+                        <code>
+                            &lt;style&gt;
+                                <br>&nbsp;&nbsp;&nbsp;div {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: rgba(255, 0, 0, 50%);
+                                <br>&nbsp;&nbsp;&nbsp;}
+                            <br>&lt;/style&gt;
+                        </code>
+                    </div>
+                    <div id="cor5" class="box-cor"></div>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="tema5">
+                <h1>Definição por Nome</h1>
+                <div class="meio">
+                    <div class="codigo">
+                        <code>
+                            &lt;style&gt;
+                                <br>&nbsp;&nbsp;&nbsp;div {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: red;
+                                <br>&nbsp;&nbsp;&nbsp;}
+                            <br>&lt;/style&gt;
+                        </code>
+                    </div>
+                    <div id="cor6" class="box-cor"></div>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="tema6">
+                <h1>Cores em Textos</h1>
+                <div class="meio">
+                    <div class="codigo">
+                        <code>
+                            &lt;style&gt;
+                                <br>&nbsp;&nbsp;&nbsp;p {
+                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: blue;
+                                <br>&nbsp;&nbsp;&nbsp;}
+                            <br>&lt;/style&gt;
+                        </code>
+                    </div>
+                    <p id="texto-colorido">Este é um texto colorido</p>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
