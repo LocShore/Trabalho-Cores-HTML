@@ -120,7 +120,7 @@ section {
 
 /* 5. Definição RGBA (Red, Green, Blue, Alpha) com transparência total */
 #cor5 {
-    background-color: rgba(255, 0, 0, 50%);
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 /* 6. Definição por nome de cor */
